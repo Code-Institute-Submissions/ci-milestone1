@@ -1,13 +1,11 @@
 # Milestone 1 Project: Band Website
 
-The client, a 60s rock band, has requested a website creating to promote their band. The primary purpose of this is for their fans, past and future, to view media (photos, audio, and videos) of the band's past and future works, and information about the band.
+The client, a 60s rock band, has requested a website creating to promote their band. The primary purpose of this is for their fans, past and future, to view media (photos, audio, and videos) of the band's past and future works, and information about the band (including links to social media).
 
 The secondary purpose of this website will be to use it to promote the band to potential clients to hire them for events and gigs.
  
 ## UX
  
-In order to create a website that will meet user expectations and provide a familiar UX, I will research other existing band websites for inspiration on layout, content, and style. These case studies will be kept seperate in the Research.docx file in order not to clutter this readme.
-
 #### User stories
 There are two main user types: fans and clients.
 * Fans will want to visit the site for information on the band, view photos, listen to music clips, and watch videos.
@@ -19,7 +17,16 @@ There are two main user types: fans and clients.
 4. As a fan/client, I want to see a list of their future events, so I can see when they are playing / are availible.
 5. As a client, I want to be able to contact the band, so I can discuss booking them.
 
-~~ PUT WIRE FRAMES HERE ~~
+#### Pages
+The site will consist of the following pages:
+* About - information about the band and band members
+* Discography - info of the band's albums
+    * ? Thumbnails of album cover art which link to individual pages for each album?
+        * ? Each album page has info (song list, release date) and a sample song(s)
+* Videos - videos of the band
+* Booking - contact page advertising what sort of venues and gigs the band plays at and contact link/form for clients to book them.
+
+[Wireframe mockups of pages](documentation/wireframes/wireframes.xls)
 --- 
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
@@ -37,7 +44,8 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Contact form is currently a dummy (requires javascript or alternative)
+- A merchandising page. Most bands have some form of online shop to sell albums and band merch. 
 
 ## Technologies Used
 
