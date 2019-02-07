@@ -26,7 +26,7 @@ The site will consist of the following pages:
 * Videos - videos of the band
 * Booking - contact page advertising what sort of venues and gigs the band plays at and contact link/form for clients to book them.
 
-[Wireframe mockups of pages](documentation/wireframes/wireframes.xls)
+[Wireframe mockups of pages](documentation/wireframes/wireframes.xlsx)
 
 
 ## Features
