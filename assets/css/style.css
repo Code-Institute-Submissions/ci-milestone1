@@ -1,0 +1,10 @@
+.logo {
+    background: url("../img/cover2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 180px; 
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
