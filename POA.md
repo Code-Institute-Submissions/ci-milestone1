@@ -4,7 +4,11 @@
     * ~~Project requirements  ~~
     * Explanation of functionality
         *  Explain how funcs meet reqs
+        *  Tech used
     *  Future ideas
+    *  Bibliography
+    *  Testing documentation
+    *  Deployment instructions
 3. Website
     1. Requirements
         * Audio and Video clips for fans
@@ -15,6 +19,29 @@
     3. Pages
         * Media page
         * Band information
-        * Booking Calender 
-        * Merchandise
-        * ?News?
+        * Booking  
+        * Merchandise (scrapped - future idea)
+        * Discography
+4. Execution
+    1. Planning
+        * ~~Reqs and outline~~
+        * ~~Wireframes~~
+    2. Skeleton (pages with grids and placeholders)
+        * ~~About Band (index)~~
+        * ~~Album info~~
+        * Booking
+        * ~~Discography~~
+        * Media
+    3. Flesh (page content and adv structuring)
+        * About Band (index)
+        * Album info
+        * Booking
+        * Discography
+        * Media
+    4. Skin (styling etc)
+        * About Band (index)
+        * Album info
+        * Booking
+        * Discography
+        * Media
+5. Testing
