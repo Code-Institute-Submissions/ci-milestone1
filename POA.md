@@ -1,4 +1,4 @@
-1. Complete Plan of Action
+1. ~~Complete Plan of Action~~
 2. Readme
     * ~~Follow example Readme's template~~
     * ~~Project requirements  ~~
@@ -29,9 +29,9 @@
     2. Skeleton (pages with grids and placeholders)
         * ~~About Band (index)~~
         * ~~Album info~~
-        * Booking
+        * ~~Booking~~
         * ~~Discography~~
-        * Media
+        * ~~Media~~
     3. Flesh (page content and adv structuring)
         * About Band (index)
         * Album info
