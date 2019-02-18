@@ -20,9 +20,9 @@
 .headshot-mn,
 .headshot-pt,
 .headshot-md {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-position: center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
     min-height: 180px;
 }
 
