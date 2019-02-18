@@ -1,11 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Happy+Monkey:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    font-style: italic;
+}
+
+header, footer {
+    background-color: steelblue;
+    font-family: 'Happy Monkey', sans-serif;
+    font-weight: 600;
+}
+
+#header-row {
+    margin-bottom: 30px;
+}
+
+#footer-row {
+    margin-top: 30px;
+}
+
+section {
+    background-color: firebrick;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+}
+
+
 .logo {
-    background: url("../img/cover.jpg");
+    background: url("../img/logo.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 180px;
+    min-height: 110px;
+}
+
+.about-band, .about-member {
+    background: rgba(230, 230, 250, .5);
+    border-radius: 10px;
 }
 
 .about-band {
@@ -14,12 +56,14 @@
 
 .about-member {
     margin-top: 20px;
+    padding: 5px;
 }
 
 .headshot-dj,
 .headshot-mn,
 .headshot-pt,
 .headshot-md {
+    /* Have to use !important as Chrome loses these settings when the below individual background urls apply */
     background-position: center !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;

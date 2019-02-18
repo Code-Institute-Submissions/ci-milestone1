@@ -34,6 +34,7 @@
         * Media 
 * Test responsive design
         * About Band (index)
+            * footer doesn't reach bottom of page at full width on 1080p
         * Album info
             * ~~FAIL: Audio controls overlap tracklist on small screen widths~~
                 * ~~FIX: Changed col-sm to col-md~~

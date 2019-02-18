@@ -32,8 +32,8 @@
         * ~~Booking~~
         * ~~Discography~~
         * ~~Media~~
-    3. Flesh (page content and adv structuring)
-        * About Band (index)
+    3. Flesh (page content)
+        * ~~About Band (index)~~
         * Album info
         * Booking
         * Discography
