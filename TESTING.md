@@ -40,4 +40,6 @@
                 * ~~FIX: Changed col-sm to col-md~~
         * Booking
         * Discography
+            * ~~Would look better splitting into two columns at smaller screens~~
         * Media 
+            * Apply same responsive design improvements from discography
