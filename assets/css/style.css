@@ -1,7 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Happy+Monkey:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
+
 .logo {
     background: url("../img/cover.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 180px; 
+    min-height: 180px;
+}
+
+.about-band {
+    margin-top: 30px;
+}
+
+.about-member {
+    margin-top: 20px;
+}
+
+.headshot-dj,
+.headshot-mn,
+.headshot-pt,
+.headshot-md {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 180px;
+}
+
+.headshot-dj {
+    background: url("../img/dj_thumb.jpg");
+}
+
+.headshot-mn {
+    background: url("../img/mn_thumb.jpg");
+}
+
+.headshot-pt {
+    background: url("../img/pt_thumb.jpg");
+}
+
+.headshot-md {
+    background: url("../img/md_thumb.jpg");
 }

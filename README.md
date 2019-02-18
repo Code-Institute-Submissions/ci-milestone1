@@ -88,10 +88,15 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+#### index.html
+- id=band-info: text was copied from the [Wikipedia article The Monkees](https://en.wikipedia.org/wiki/The_Monkees)
+- id=dj: text was copied from the [Wikipedia article Davy Jones](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
+- id=mn: text was copied from the [Wikipedia article The Monkees](https://en.wikipedia.org/wiki/Michael_Nesmith)
+- id=pt: text was copied from the [Wikipedia article The Monkees](https://en.wikipedia.org/wiki/Peter_Tork)
+- id=md: text was copied from the [Wikipedia article The Monkees](https://en.wikipedia.org/wiki/Micky_Dolenz)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from [Code Institute's project assets repo](https://github.com/Code-Institute-Org/project-assets)
 
 ### Acknowledgements
 

@@ -11,16 +11,16 @@
     * Navs
         * About Band (index)
         * Album info
-            * FAIL: Links are relative and not working
-                * Fix: Change HF links to absolute paths
+            * ~~FAIL: Links are relative and not working~~
+                * ~~Fix: Change HF links to absolute paths~~
         * Booking
         * Discography
         * Media  
     * Social
         * About Band (index)
         * Album info
-            * FAIL: Links are relative and not working
-                * Fix: Change HF links to absolute paths
+            * ~~FAIL: Links are relative and not working~~
+                * ~~Fix: Change HF links to absolute paths~~
         * Booking
         * Discography
         * Media 
@@ -35,8 +35,8 @@
 * Test responsive design
         * About Band (index)
         * Album info
-            * FAIL: Audio controls overlap tracklist on small screen widths
-                * FIX: Changed col-sm to col-md
+            * ~~FAIL: Audio controls overlap tracklist on small screen widths~~
+                * ~~FIX: Changed col-sm to col-md~~
         * Booking
         * Discography
         * Media 
