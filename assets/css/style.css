@@ -55,9 +55,13 @@ audio {
     min-height: 110px;
 }
 
+.thumbnail {
+    padding: 1px;
+}
+
 .about-band, .about-member, .text-box {
-    color: #333;
-    background: rgba(230, 230, 250, .4);
+    color: #222;
+    background: rgba(230, 230, 250, 0.6);
     border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -106,7 +110,7 @@ audio {
 
 .center-form form button{
     margin-top: 5px;
-    color: #333;
+    color: #222;
 }
 
 @media(min-width: 992px) {
