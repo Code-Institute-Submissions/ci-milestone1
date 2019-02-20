@@ -57,6 +57,7 @@ audio {
 
 .thumbnail {
     padding: 1px;
+    max-height: 180px;
 }
 
 .about-band, .about-member, .text-box {
