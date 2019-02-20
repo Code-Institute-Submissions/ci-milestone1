@@ -19,6 +19,7 @@ a {
 header, footer {
     background-color: steelblue;
     font-family: 'Happy Monkey', sans-serif;
+    color: bisque;
     font-weight: 600;
 }
 
@@ -35,6 +36,7 @@ section {
     padding-bottom: 30px;
     background-color: firebrick;
     font-family: Raleway, sans-serif;
+    color: aliceblue; 
     font-weight: 600;
 }
 
@@ -53,9 +55,12 @@ audio {
     min-height: 110px;
 }
 
-.about-band, .about-member {
-    background: rgba(230, 230, 250, .5);
+.about-band, .about-member, .text-box {
+    color: #333;
+    background: rgba(230, 230, 250, .4);
     border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .about-band {
@@ -64,7 +69,12 @@ audio {
 
 .about-member {
     margin-top: 20px;
-    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.text-box {
+    margin-top: 20px
 }
 
 .headshot-dj,
@@ -92,4 +102,17 @@ audio {
 
 .headshot-md {
     background: url("../img/md_thumb.jpg");
+}
+
+.center-form form button{
+    margin-top: 5px;
+    color: #333;
+}
+
+@media(min-width: 992px) {
+    .center-form{
+        margin: 0 auto;
+        max-width: 650px;
+        
+    }
 }
