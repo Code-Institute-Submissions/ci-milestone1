@@ -43,3 +43,5 @@
             * ~~Would look better splitting into two columns at smaller screens~~
         * Media 
             * Apply same responsive design improvements from discography
+* Deployment to github pages
+    * GH-P's root directory doesn't include repo subdirectory, this breaks absolute links.
