@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Happy+Monkey:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
 
+
 p,
 h1,
 h2,
@@ -16,7 +17,8 @@ a {
     font-style: italic;
 }
 
-header, footer {
+header,
+footer {
     background-color: steelblue;
     font-family: 'Happy Monkey', sans-serif;
     color: bisque;
@@ -36,7 +38,7 @@ section {
     padding-bottom: 30px;
     background-color: firebrick;
     font-family: Raleway, sans-serif;
-    color: aliceblue; 
+    color: aliceblue;
     font-weight: 600;
 }
 
@@ -46,6 +48,13 @@ audio {
     max-width: 300px;
 }
 
+.main-body-content {
+    min-height: calc(100vh - 232px);
+}
+
+.fa {
+    padding: 0 5px;
+}
 
 .logo {
     background: url("../img/logo.png");
@@ -60,7 +69,9 @@ audio {
     max-height: 180px;
 }
 
-.about-band, .about-member, .text-box {
+.about-band,
+.about-member,
+.text-box {
     color: #222;
     background: rgba(230, 230, 250, 0.6);
     border-radius: 10px;
@@ -70,6 +81,8 @@ audio {
 
 .about-band {
     margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .about-member {
@@ -90,7 +103,8 @@ audio {
     background-position: center !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
-    min-height: 180px;
+    min-height: 190px;
+    padding: 0;
 }
 
 .headshot-dj {
@@ -109,15 +123,30 @@ audio {
     background: url("../img/md_thumb.jpg");
 }
 
-.center-form form button{
+.form-control {
+    margin-bottom: 3px;
+}
+
+.center-form form button {
     margin-top: 5px;
     color: #222;
 }
 
+@media(max-width: 768px) {
+    .about-band {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .about-member {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+}
+
 @media(min-width: 992px) {
-    .center-form{
+    .center-form {
         margin: 0 auto;
         max-width: 650px;
-        
+
     }
 }

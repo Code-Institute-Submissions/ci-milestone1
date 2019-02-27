@@ -14,11 +14,11 @@
     <header class="container-fluid">
         <div id="header-row" class="row">
             <a href="index.html">
-                <div class="col-sm-4 logo"></div>
+                <div class="col-md-4 logo"></div>
             </a>
-            <div class="col-sm-8">
+            <div id="nav_top" class="col-md-8">
                 <div class="row">
-                    <ul id="nav" class="list-inline clearfix">
+                    <ul class="list-inline clearfix">
                         <li class="col-xs-6 col-sm-3 ui-menu-color-about menuitem">
                             <a href="index.html" class="hvr-sweep-to-bottom"><span>About</span></a>
                         </li>
@@ -31,28 +31,30 @@
                         <li class="col-xs-6 col-sm-3 ui-menu-name-booking menuitem">
                             <a href="booking.html" class="hvr-sweep-to-bottom"><span>Book us!</span></a>
                         </li>
-                        <ul class="col-xs-6 col-sm-3 pull-right list-inline social-links">
-                            <li><a target="_blank" href="assets/dummypages/ext-facebook.html"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="assets/dummypages/ext-twitter.html"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="assets/dummypages/ext-youtube.html"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
+                    </ul>
+                    <ul class="col-xs-12 col-sm-3 col-sm-offset-9 list-inline social-links">
+                        <li><a target="_blank" href="assets/dummypages/ext-facebook.html"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="assets/dummypages/ext-twitter.html"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="assets/dummypages/ext-youtube.html"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="container-fluid">
+    <section class="container-fluid main-body-content">
         <div class="row">
-            <div id="band-info" class="col-sm-6 col-sm-offset-3 about-band">
-                <h2>The Monkees</h2>
-                <p>
-                    The Monkees are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed. They were formed in Los Angeles in 1965 by Bob Rafelson and Bert Schneider specifically for the American
-                    television series 'The Monkees', which aired from 1966 to 1968.
-                </p>
-                <p> The musical acting quartet was composed of Americans Micky Dolenz, Michael Nesmith, and Peter Tork; and the English actor and singer Davy Jones. The band's music was initially supervised by producer Don Kirshner, backed by the songwriting
-                    duo of Tommy Boyce and Bobby Hart.
-                </p>
+            <div id="band-info" class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="row about-band">
+                    <h2>The Monkees</h2>
+                    <p>
+                        The Monkees are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed. They were formed in Los Angeles in 1965 by Bob Rafelson and Bert Schneider specifically for the American
+                        television series 'The Monkees', which aired from 1966 to 1968.
+                    </p>
+                    <p> The musical acting quartet was composed of Americans Micky Dolenz, Michael Nesmith, and Peter Tork; and the English actor and singer Davy Jones. The band's music was initially supervised by producer Don Kirshner, backed by the songwriting
+                        duo of Tommy Boyce and Bobby Hart.
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -114,9 +116,9 @@
 
     <footer class="container-fluid">
         <div id="footer-row" class="row">
-            <div class="col-sm-2 col-sm-offset-1">
+            <div id="nav_bottom" class="col-xs-12 col-sm-6">
                 <div class="row">
-                    <ul id="nav" class="list-inline clearfix">
+                    <ul class="list-inline clearfix">
                         <li class="col-xs-6 col-sm-12 ui-menu-color-about menuitem">
                             <a href="index.html" class="hvr-sweep-to-bottom"><span>About</span></a>
                         </li>
@@ -132,11 +134,12 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 pull-right">
+            <div class="col-xs-12 col-sm-6">
+                <!-- Uses list-inline so on XS width list is horizontal, uses col-sm-12 for the li elements so that >SM width list goes vertical -->
                 <ul class="list-inline social-links">
-                    <li class="col-sm-12"><a target="_blank" href="assets/dummypages/ext-facebook.html"><i class="fa fa-facebook"></i><span class="hidden-xs">Facebook</span></a></li>
-                    <li class="col-sm-12"><a target="_blank" href="assets/dummypages/ext-twitter.html"><i class="fa fa-twitter"></i><span class="hidden-xs">Twitter</span></a></li>
-                    <li class="col-sm-12"><a target="_blank" href="assets/dummypages/ext-youtube.html"><i class="fa fa-youtube"></i><span class="hidden-xs">Youtube</span></a></li>
+                    <li class="col-sm-12"><a target="_blank" href="assets/dummypages/ext-facebook.html"><i class="fa fa-facebook"></i><span class="hidden-xs">Facebook </span></a></li>
+                    <li class="col-sm-12"><a target="_blank" href="assets/dummypages/ext-twitter.html"><i class="fa fa-twitter"></i><span class="hidden-xs">Twitter </span></a></li>
+                    <li class="col-sm-12"><a target="_blank" href="assets/dummypages/ext-youtube.html"><i class="fa fa-youtube"></i><span class="hidden-xs">Youtube </span></a></li>
                 </ul>
             </div>
         </div>
