@@ -165,4 +165,7 @@ hr {
         max-width: 650px;
 
     }
+    #nav_top {
+        margin-top: 40px;
+    }
 }
