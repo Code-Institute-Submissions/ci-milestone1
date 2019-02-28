@@ -48,6 +48,12 @@ audio {
     max-width: 300px;
 }
 
+.subheading {
+    font-family: 'Happy Monkey', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
 .main-body-content {
     min-height: calc(100vh - 232px);
 }
@@ -127,6 +133,10 @@ audio {
     margin-bottom: 3px;
 }
 
+.center-form {
+    margin-top: 15px;
+}
+
 .center-form form button {
     margin-top: 5px;
     color: #222;
@@ -145,7 +155,7 @@ audio {
 
 @media(min-width: 992px) {
     .center-form {
-        margin: 0 auto;
+        margin: 15px auto;
         max-width: 650px;
 
     }
