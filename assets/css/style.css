@@ -84,7 +84,8 @@ hr {
 
 .about-band,
 .about-member,
-.text-box {
+.text-box,
+.disco-album {
     color: #222;
     background: rgba(230, 230, 250, 0.6);
     border-radius: 10px;
@@ -102,7 +103,10 @@ hr {
     padding-right: 5px;
 }
 
-.text-box {
+/* .text-box should be applied to row divs only */
+
+.text-box,
+.disco-album {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -157,9 +161,22 @@ hr {
         margin-left: -5px;
         margin-right: -5px;
     }
+    .text-box,
+    .disco-album {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .disco-album {
+        max-width: 220px
+    }
 }
 
 @media(min-width: 992px) {
+    .disco-album {
+        /* Fixes grid losing alignment ~1000px screen width */
+        min-height: 200px;
+    }
     .center-form {
         margin: 15px auto;
         max-width: 650px;
