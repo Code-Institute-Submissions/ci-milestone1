@@ -48,9 +48,18 @@ audio {
     max-width: 300px;
 }
 
+video {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
 .subheading {
     font-family: 'Happy Monkey', sans-serif;
-    margin-top: 25px;
     margin-bottom: 20px;
 }
 
@@ -96,7 +105,8 @@ audio {
 }
 
 .text-box {
-    margin-top: 20px
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .headshot-dj,
