@@ -77,6 +77,38 @@ hr {
     margin-bottom: 5px;
 }
 
+#nav_top {
+    margin: 0;
+    font-size: 18px;
+}
+
+#nav_top li {
+    padding: 0px;
+}
+
+.menuitem {
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 80%;
+    text-decoration: none;
+    max-width: 200px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    /*font-size: 20px;*/
+    letter-spacing: 2px;
+}
+
+.hvr-fade:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 .thumbnail {
     padding: 1px;
     max-height: 180px;
@@ -181,7 +213,10 @@ hr {
         margin: 15px auto;
         max-width: 650px;
     }
+}
+
+@media(min-width: 1200px){
     #nav_top {
-        margin-top: 40px;
+        margin-top: 34px;
     }
 }
