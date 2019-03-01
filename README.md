@@ -14,7 +14,6 @@ There are two main user types: fans and clients.
 1. As a fan/client, I want to visit an About Section, so I can learn about the band.
 2. As a fan/client, I want to visit a page of the band's music, so I can listen/watch previous performances.
 3. As a fan/client, I want to visit a page with photos of the band, so I can look at photos of the band/previous performances.
-4. As a fan/client, I want to see a list of their future events, so I can see when they are playing / are availible.
 5. As a client, I want to be able to contact the band, so I can discuss booking them.
 
 #### Pages
@@ -42,8 +41,10 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Contact form is currently a dummy (requires javascript or alternative)
+- Contact form is currently a dummy (not linked to a backend)
+
 - A merchandising page. Most bands have some form of online shop to sell albums and band merch. 
+- A page with a calender that lists the band's gigs would be a good future feature. 
 
 ## Technologies Used
 
