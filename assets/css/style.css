@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Happy+Monkey:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
 
+/*************************** START: Global Elements ***************************/
 
 p,
 h1,
@@ -15,6 +16,7 @@ ul {
 a {
     color: inherit;
     font-style: italic;
+    text-decoration: none;
 }
 
 header,
@@ -53,6 +55,10 @@ hr {
     margin-top: 25px;
     margin-bottom: 7px;
 }
+
+/*************************** END: Global Elements *****************************/
+
+/*************************** START: Global Classes ****************************/
 
 .subheading {
     font-family: 'Happy Monkey', sans-serif;
@@ -117,6 +123,10 @@ hr {
     max-height: 180px;
 }
 
+/*************************** END: Global Classes ******************************/
+
+/*************************** START: Boxes *************************************/
+
 .about-band,
 .about-member,
 .text-box,
@@ -126,6 +136,7 @@ hr {
     border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    box-shadow: 4px 5px 6px rgba(51, 51, 51, 0.7)
 }
 
 .about-band {
@@ -138,13 +149,15 @@ hr {
     padding-right: 5px;
 }
 
-/* .text-box should be applied to row divs only */
-
 .text-box,
 .disco-album {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/*************************** END: Boxes ***************************************/
+
+/*************************** START: Index('About') Classes ********************/
 
 .headshot-dj,
 .headshot-mn,
@@ -174,6 +187,10 @@ hr {
     background: url("../img/md_thumb.jpg");
 }
 
+/*************************** END: Index('About') Classes ***********************/
+
+/*************************** START: Booking Classes ****************************/
+
 .form-control {
     margin-bottom: 3px;
 }
@@ -186,6 +203,10 @@ hr {
     margin-top: 5px;
     color: #222;
 }
+
+/*************************** END: Booking Classes ******************************/
+
+/*************************** START: @media Queries *****************************/
 
 @media(max-width: 768px) {
     .about-band {
@@ -218,8 +239,10 @@ hr {
     }
 }
 
-@media(min-width: 1200px){
+@media(min-width: 1200px) {
     #nav_top {
         margin-top: 34px;
     }
 }
+
+/*************************** END: @media Queries ******************************/
