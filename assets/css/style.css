@@ -60,18 +60,7 @@ hr {
 
 /*************************** START: Global Classes ****************************/
 
-.subheading {
-    font-family: 'Happy Monkey', sans-serif;
-    margin-bottom: 20px;
-}
-
-.main-body-content {
-    min-height: calc(100vh - 227px);
-}
-
-.fa {
-    padding: 0 5px;
-}
+/*---        Heading/Footer         ---*/
 
 .logo {
     background: url("../img/logo.png");
@@ -118,10 +107,21 @@ hr {
     color: #fff;
 }
 
-.thumbnail {
-    padding: 1px;
-    max-height: 180px;
+/*---        Main body              ---*/
+
+.main-body-content {
+    min-height: calc(100vh - 225px);
 }
+
+.subheading {
+    font-family: 'Happy Monkey', sans-serif;
+    margin-bottom: 20px;
+}
+
+.fa {
+    padding: 0 5px;
+}
+
 
 /*************************** END: Global Classes ******************************/
 
@@ -153,6 +153,12 @@ hr {
 .disco-album {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.thumbnail {
+    padding: 1px;
+    max-height: 180px;
+    box-shadow: 3px 4px 5px rgba(51, 51, 51, 0.8)
 }
 
 /*************************** END: Boxes ***************************************/

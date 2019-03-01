@@ -20,7 +20,7 @@
         * Media page
         * Band information
         * Booking  
-        * Merchandise (scrapped - future idea)
+        * ~~Merchandise (scrapped - future idea)~~
         * Discography
 4. Execution
     1. Planning
@@ -34,14 +34,14 @@
         * ~~Media~~
     3. Flesh (page content)
         * ~~About Band (index)~~
-        * Album info
-        * Booking
-        * Discography
-        * Media
+        * ~~Album info~~
+        * ~~Booking~~
+        * ~~Discography~~
+        * ~~Media~~
     4. Skin (styling etc)
-        * About Band (index)
-        * Album info
-        * Booking
-        * Discography
-        * Media
+        * ~~About Band (index)~~
+        * ~~Album info~~
+        * ~~Booking~~
+        * ~~Discography~~
+        * ~~Media~~
 5. Testing
