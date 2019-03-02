@@ -95,9 +95,14 @@ In addition, if it is not obvious, you should also describe how to run your code
 - id=mn: text was copied from the [Wikipedia article The Monkees](https://en.wikipedia.org/wiki/Michael_Nesmith)
 - id=pt: text was copied from the [Wikipedia article The Monkees](https://en.wikipedia.org/wiki/Peter_Tork)
 - id=md: text was copied from the [Wikipedia article The Monkees](https://en.wikipedia.org/wiki/Micky_Dolenz)
+ 
+#### /albums/album-*.html
+- /albums/covers - track lists taken from wikipedia's respective page for each album, as linked on [Wikipedia's 'The Monkees Discography'](https://en.wikipedia.org/wiki/The_Monkees_discography#Studio_albums)
+
 
 ### Media
-- The photos used in this site were obtained from [Code Institute's project assets repo](https://github.com/Code-Institute-Org/project-assets)
+- Majority of photos used in this site were obtained from [Code Institute's project assets repo](https://github.com/Code-Institute-Org/project-assets)
+- /albums/covers - album art taken from wikipedia's respective page for each album, as linked on [Wikipedia's 'The Monkees Discography'](https://en.wikipedia.org/wiki/The_Monkees_discography#Studio_albums)
 
 ### Acknowledgements
 

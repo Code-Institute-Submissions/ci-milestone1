@@ -3,7 +3,7 @@
     * About Band (index)
     * Album info
         * ~~FAIL: CSS not loading~~
-            * ~~Fix: Change CSS links to absolute paths instead of relative ~~
+            * ~~Fix: Changed pathing on CSS links ~~
     * Booking
     * Discography
     * Media 
@@ -34,7 +34,8 @@
         * Media 
 * Test responsive design
         * About Band (index)
-            * footer doesn't reach bottom of page at full width on 1080p
+            * ~~footer doesn't reach bottom of page at full width on 1080p~~
+                * FIXED: created main-body-content class to apply min-height: calc(100vh - 225px)
         * Album info
             * ~~FAIL: Audio controls overlap tracklist on small screen widths~~
                 * ~~FIX: Changed col-sm to col-md~~
@@ -42,7 +43,7 @@
         * Discography
             * ~~Would look better splitting into two columns at smaller screens~~
         * Media 
-            * Apply same responsive design improvements from discography
+            * ~~Apply same responsive design improvements from discography~~
 * Deployment to github pages
     * ~~GH-P's root directory doesn't include repo subdirectory, this breaks absolute links.~~
     * favicon not loading due wrong url on GHP
