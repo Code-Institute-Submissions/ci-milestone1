@@ -52,11 +52,6 @@ video {
     margin-bottom: 10px;
 }
 
-hr {
-    margin-top: 25px;
-    margin-bottom: 7px;
-}
-
 /*************************** END: Global Elements *****************************/
 
 /*************************** START: Global Classes ****************************/
@@ -123,10 +118,14 @@ hr {
     padding: 0 5px;
 }
 
+.track-list li {
+    text-transform: capitalize;
+}
+
 
 /*************************** END: Global Classes ******************************/
 
-/*************************** START: Boxes *************************************/
+/*************************** START: Boxes and Lines ***************************/
 
 .about-band,
 .about-member,
@@ -164,9 +163,22 @@ hr {
 
 .album-art {
     max-height: 180px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
 }
 
-/*************************** END: Boxes ***************************************/
+.hr-media {
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+.hr-album {
+    margin: 10px auto;
+    width: 50%;
+}
+
+/*************************** END: Boxes and Lines *****************************/
 
 /*************************** START: Index('About') Classes ********************/
 
