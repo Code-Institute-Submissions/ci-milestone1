@@ -118,10 +118,6 @@ video {
     padding: 0 5px;
 }
 
-.track-list li {
-    text-transform: capitalize;
-}
-
 
 /*************************** END: Global Classes ******************************/
 
@@ -228,6 +224,18 @@ video {
 }
 
 /*************************** END: Booking Classes ******************************/
+
+/*************************** START: Album Classes ******************************/
+
+.track-list li {
+    text-transform: capitalize;
+}
+
+.track-list li:nth-child(odd) {
+    color: aliceblue;
+}
+
+/*************************** END: Album Classes ** *****************************/
 
 /*************************** START: @media Queries *****************************/
 
