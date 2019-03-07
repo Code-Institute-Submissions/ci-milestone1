@@ -276,4 +276,25 @@ video {
     }
 }
 
+/* The below two MQs are a bit of a hacky way to adjust the site to look better on QHD and 4K screens
+   It's functional, but would be better to migrate to Bootstrap 4 if this was a longer term project */
+
+@media(min-width: 2500px) {
+    body {
+        zoom: 134%;
+    }
+    .main-body-content {
+        min-height: calc(75vh - 225px);
+    }
+}
+
+@media(min-width: 3600px) {
+    body {
+        zoom: 200%;
+    }
+    .main-body-content {
+        min-height: calc(50vh - 225px);
+    }
+}
+
 /*************************** END: @media Queries ******************************/
