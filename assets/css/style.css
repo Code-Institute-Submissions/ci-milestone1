@@ -286,6 +286,7 @@ video {
     .main-body-content {
         min-height: calc(75vh - 225px);
     }
+
 }
 
 @media(min-width: 3600px) {
@@ -296,5 +297,13 @@ video {
         min-height: calc(50vh - 225px);
     }
 }
+/* The above hack doesn't work on firefox or opera, this hack fixes the extra white space on firefox but could not find an equivilent for opera */
+
+@-moz-document url-prefix() {
+    .main-body-content {
+        min-height: calc(100vh - 225px);
+    }
+}
+
 
 /*************************** END: @media Queries ******************************/
