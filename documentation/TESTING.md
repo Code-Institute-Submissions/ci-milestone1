@@ -228,6 +228,11 @@ User stories, and how this project fulfils their needs:
 		1. If validation fails: form gives reason and suggests corrections
 		2. Else if validation passes: user is taken to a confirmation page
 
+## Differences between different browsers
+
+I have tested using Chrome, Edge, and Firefox.
+
+There are no significant differences in appeareance between browsers, aside from the HTML5 audio and video players which look different between the different browser software.
 
 
 ## Issues of Note
