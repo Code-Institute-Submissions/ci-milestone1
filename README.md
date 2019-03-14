@@ -62,7 +62,8 @@ After I became more adept with Bootstrap's grid system, I updated the wireframes
 
 ###### Short term: 
 
-- Contact form is currently a dummy (not linked to a backend)
+- Contact form is currently a dummy (not linked to a backend).
+- The 'Thanks' page has a lot of white space, echoing the contents of the submitted form could be something good to take up that space.
 - Social media pages all link to dummy pages instead of an actual page on the relevant social media platform.
 
 ###### Long term: 
@@ -131,20 +132,9 @@ To deploy the website to github pages I did the following:
 - In the github repo settings, went to the GitHub Pages section and set the source branch to the 'gh-pages' branch
 	- This gives a hyperlink to the hosted version of the project
 
-There are no differences between the development version (aside from the deployed version running from a separate git directory, which was largely for house keeping and not necessary to run the site), although several changes were made in the development process to make the site compatible with github pages.
-
+There are no differences between the development version (aside from the deployed version running from a separate git directory, which was largely for house keeping and not necessary to run the site), although several changes were made in the development process to make the site compatible with github pages.  
 This was largely due to GHP's root directory being 'username.github.io/' instead of 'username.github.io/branchname/', so any absolute links would path incorrectly. 
 
----------
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
 ## Credits
