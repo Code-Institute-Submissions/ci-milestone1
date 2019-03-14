@@ -82,14 +82,9 @@ video {
     padding: 0;
 }
 
-.menuitem a {
-    width: 80%;
-    text-decoration: none;
-    max-width: 200px;
-}
-
 .menuitem a:hover {
     color: #fff;
+    text-decoration: none;
 }
 
 .menuitem span {
@@ -101,6 +96,7 @@ video {
 
 .social-links li a:hover {
     color: #fff;
+    text-decoration: none;
 }
 
 /*---        Main body              ---*/
@@ -153,12 +149,12 @@ video {
 
 .thumbnail {
     padding: 1px;
-    max-height: 180px;
+    height: 180px;
     box-shadow: 3px 4px 5px rgba(51, 51, 51, 0.8)
 }
 
 .album-art {
-    max-height: 180px;
+    height: 180px;
     border-color: black;
     border-style: solid;
     border-width: 1px;
@@ -273,6 +269,66 @@ video {
 @media(min-width: 1200px) {
     #nav_top {
         margin-top: 34px;
+    }
+}
+
+@media(min-width: 2500px) {
+    body {
+        font-size: 28px;
+    }
+    h1,
+    .h1 {
+        font-size: 72px;
+    }
+    h2,
+    .h2 {
+        font-size: 60px;
+    }
+    h3,
+    .h3 {
+        font-size: 48px;
+    }
+    h4,
+    .h4 {
+        font-size: 36px;
+    }
+    h5,
+    .h5 {
+        font-size: 28px;
+    }
+    h6,
+    .h6 {
+        font-size: 24px;
+    }
+    audio {
+        height: 50px;
+    }
+    video {
+        height: 720px;
+    }
+    .logo {
+        min-height: 220px;
+    }
+    #nav_top {
+        font-size: 36px;
+    }
+    .menuitem a {
+        max-width: 400px;
+    }
+    .main-body-content {
+        min-height: calc(100vh - 225px);
+    }
+    .thumbnail {
+        height: 360px;
+    }
+    .album-art {
+        height: 360px;
+    }
+    .headshot-dj,
+    .headshot-mn,
+    .headshot-pt,
+    .headshot-md {
+        min-height: 380px;
     }
 }
 
