@@ -84,6 +84,7 @@ video {
 
 .menuitem a:hover {
     color: #fff;
+    text-decoration: none;
 }
 
 .menuitem span {
@@ -95,6 +96,7 @@ video {
 
 .social-links li a:hover {
     color: #fff;
+    text-decoration: none;
 }
 
 /*---        Main body              ---*/
@@ -328,7 +330,6 @@ video {
     .headshot-md {
         min-height: 380px;
     }
-
 }
 
 /*************************** END: @media Queries ******************************/
